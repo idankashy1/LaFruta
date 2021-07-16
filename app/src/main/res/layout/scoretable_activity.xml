@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game">
+
+    <ImageButton
+        android:id="@+id/bt_home"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/home_bt"
+        android:scaleType="fitXY"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/title_scoreboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_board_bt"
+        android:textSize="40sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_below="@id/title_scoreboard"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/currentScore_Layout">
+
+        <TextView
+            android:id="@+id/name_st"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/currentScore_st1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yourScore"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/currentScore_st2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/currentScore_Layout"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="800dp"
+                android:src="@drawable/medal_block10"
+                android:paddingRight="25dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/medals_bg"
+                />
+
+            <TextView
+                android:id="@+id/winner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="48dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="125dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="202dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="279dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="356dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/medals_bg"
+                android:layout_marginBottom="341dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/medals_bg"
+                android:layout_marginBottom="263dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/medals_bg"
+                android:layout_marginBottom="185dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/medals_bg"
+                android:layout_marginBottom="107dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/winner10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_alignBottom="@+id/medals_bg"
+                android:layout_marginBottom="28dp"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textSize="20sp"/>
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="48dp">
+
+                <TextView
+                    android:id="@+id/winner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/winner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:text=""
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="50dp"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/winner7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:id="@+id/winner10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="50dp"/>
+
+            </LinearLayout>-->
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

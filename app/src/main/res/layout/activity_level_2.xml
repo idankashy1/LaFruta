@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/setting_bt"
+            android:background="@null"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:onClick="setting"
+            android:visibility="invisible"
+            android:id="@+id/settings_btn_game"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scoreLable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/score_st"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/req_score_up_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="3dp"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/required_score"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/timerText"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@null"
+            android:gravity="center"
+            android:text="01:30"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:id="@+id/gameFrame"
+            android:layout_width="320dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/stickBg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/sticks"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/box"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_gravity="bottom|left"
+                android:src="@drawable/fruit_basket"
+                android:visibility="invisible"
+                android:contentDescription="@string/basket"
+                />
+
+            <ImageView
+                android:id="@+id/worm"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/worm"
+                android:visibility="invisible"
+                android:contentDescription="@string/worm"/>
+
+
+            <ImageView
+                android:id="@+id/RedApple"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:src="@drawable/green_apple"
+                android:visibility="invisible"
+                android:contentDescription="@string/apple"/>
+
+            <ImageView
+                android:id="@+id/lemon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@null"
+                android:src="@drawable/lemon"
+                android:visibility="invisible"
+                android:contentDescription="@string/lemon"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="25dp"
+                android:background="@drawable/block2_bg"
+                android:orientation="vertical"
+                android:id="@+id/start_layout">
+
+                <Button
+                    android:id="@+id/start_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_gravity="center"
+                    android:text="@string/tapStart"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:background="@null"
+                    android:padding="5dp"
+                    android:onClick="startGame"/>
+
+                <TextView
+                    android:id="@+id/req_score_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="93dp"
+                    android:text="@string/required_score"
+                    android:textColor="@color/white"
+                    android:padding="5dp"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/arrow"
+                android:visibility="invisible" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">LaFruta</string>
+    <string name="score_st">Score: 0</string>
+    <string name="required_score">"Required score: "</string>
+    <string name="tapStart">Start game</string>
+    <string name="exit_msg">Are you sure you want to quit the game ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="worm">Worm</string>
+    <string name="apple">Apple</string>
+    <string name="lemon">Lemon</string>
+    <string name="basket">Basket</string>
+    <string name="score">Score:</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="yourScore">"Your score: "</string>
+    <string name="again">Try again</string>
+    <string name="saveBt">Save</string>
+    <string name="quit_bt">Quit</string>
+    <string name="play_bt">Play</string>
+    <string name="score_board_bt">Score Board</string>
+    <string name="well_done">WELL DONE !</string>
+    <string name="to_next_level">Continue To next level</string>
+    <string name="main_menu">To Main Menu</string>
+    <string name="exit_in_game_msg">Are you sure you want to leave the game ?</string>
+    <string name="inst1">Touch to move RIGHT. Realease to move LEFT</string>
+    <string name="inst2">Grab the fruits. Avoid worms !</string>
+    <string name="strawberry">Strawberry</string>
+    <string name="enter_name">Please enter your name</string>
+    <string name="cancel">Cancel</string>
+    <string name="send_bt">Send</string>
+    <string name="sorry_st">Your score has not reached to the top 10</string>
+    <string name="banana">Banana</string>
+</resources>

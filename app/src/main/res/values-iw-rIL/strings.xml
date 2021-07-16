@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">לה פרוטה</string>
+    <string name="score_st">ניקוד: 0</string>
+    <string name="required_score">"ניקוד נדרש: "</string>
+    <string name="tapStart">התחל משחק</string>
+    <string name="apple">תפוח</string>
+    <string name="basket">סל</string>
+    <string name="exit_msg">האם אתה בטוח שאתה רוצה לצאת?</string>
+    <string name="lemon">לימון</string>
+    <string name="no">לא</string>
+    <string name="score">"ניקוד: "</string>
+    <string name="worm">תולעת</string>
+    <string name="yes">כן</string>
+    <string name="game_over">המשחק נגמר</string>
+    <string name="yourScore">"הניקוד שלך: "</string>
+    <string name="again">נסה שנית</string>
+    <string name="saveBt">שמור</string>
+    <string name="play_bt">שחק</string>
+    <string name="quit_bt">יציאה</string>
+    <string name="score_board_bt">לוח שיאים</string>
+    <string name="well_done">כל הכבוד !</string>
+    <string name="to_next_level">המשך לשלב הבא</string>
+    <string name="main_menu">לתפריט הראשי</string>
+    <string name="exit_in_game_msg">אתה בטוח שאתה רוצה לעזוב את המשחק ?</string>
+    <string name="inst1">לחץ כדי לזוז ימינה. שחרר כדי לזוז שמאלה</string>
+    <string name="inst2">אסוף את הפירות והמנע מתולעים!</string>
+    <string name="strawberry">תות</string>
+    <string name="enter_name">הכנס את שמך</string>
+    <string name="cancel">ביטול</string>
+    <string name="send_bt">שליחה</string>
+    <string name="sorry_st">הניקוד שלך נמוך מ-10 הטובים ביותר</string>
+    <string name="banana">בננה</string>
+</resources>
